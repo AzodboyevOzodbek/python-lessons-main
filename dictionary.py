@@ -37,5 +37,5 @@ telefonlar = {
     }
 phone = telefonlar['ali']
 print(f"Alining telefoni {phone}")
-print(telefonlar.get('vali')) # ga;acy s9
+print(telefonlar.get('vali')) # galacy s9
 print(telefonlar.get('akmal')) #None
