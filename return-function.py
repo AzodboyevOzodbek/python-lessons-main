@@ -22,3 +22,14 @@
 #     return "juft" if son % 2 == 0 else "toq"
 # natija = isEven(son=int(input("Son kiriting: ")))
 # print(natija)
+
+# unli harflar(a, e, i, o, u) sonini hisoblovchi funksiya
+def count_vowels(text):
+    count = 0
+    for char in text:
+        if char.lower() in "aeiou":
+            count += 1
+    return count
+
+matn = input("Matn kiriting: ")
+natija = count_vowels(matn)
